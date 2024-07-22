@@ -60,7 +60,6 @@ public class TitanicAppl {
         try {
             return Integer.parseInt(value);
         } catch (NumberFormatException e) {
-            System.err.println("Invalid integer value: " + value);
             return 0;
         }
     }
@@ -69,7 +68,6 @@ public class TitanicAppl {
         try {
             return Double.parseDouble(value);
         } catch (NumberFormatException e) {
-            System.err.println("Invalid double value: " + value);
             return 0.0;
         }
     }
